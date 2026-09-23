@@ -17,3 +17,25 @@
 # Keil user and GUI settings
 *.uvoptx
 *.uvguix.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Python 运行/推理输出
+runs/
+log/
+*.log
+
+# 大体积测试资源
+videos/
+images/
+weights/
